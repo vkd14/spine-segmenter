@@ -1,0 +1,19 @@
+# Core inference
+nnunetv2>=2.5
+torch>=2.1
+
+# Medical image I/O
+nibabel>=5.0
+SimpleITK>=2.3
+
+# Post-processing & meshing
+numpy>=1.24
+scipy>=1.11
+scikit-image>=0.22
+trimesh>=4.0
+
+# CLI / utilities (already pulled in transitively but pinned here for clarity)
+tqdm
+
+# Optional: GUI (not required for cli.py)
+streamlit>=1.28

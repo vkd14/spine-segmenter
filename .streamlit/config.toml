@@ -1,0 +1,14 @@
+# Project-local Streamlit settings. Picked up automatically by `streamlit run`
+# when launched from this directory. The desktop_app.py wrapper passes the
+# same values explicitly on the command line so both paths stay consistent.
+
+[server]
+maxUploadSize = 600
+maxMessageSize = 600
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
