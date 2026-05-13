@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.11-ee4c2c.svg)
 ![nnU-Net](https://img.shields.io/badge/nnU--Net-v2-2C5F2D.svg)
-![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-000000.svg)
 ![License](https://img.shields.io/badge/use-academic-blue.svg)
 
 End-to-end ML pipeline that takes a sagittal T1 FLAIR (or T1 / T2 reconstructed)
