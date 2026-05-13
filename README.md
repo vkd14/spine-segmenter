@@ -71,8 +71,8 @@ results/<case_id>/
 ## Install
 
 ```bash
-git clone git@github.com:vkd14/spine-seg-app.git
-cd spine-seg-app
+git clone git@github.com:vkd14/spine-segmenter.git
+cd spine-segmenter
 
 python3.12 -m venv .venv
 .venv/bin/pip install --upgrade pip
@@ -90,7 +90,7 @@ total ~11 GB. Download them separately and place the directory at the project
 root so the layout looks like:
 
 ```
-spine-seg-app/
+spine-segmenter/
 └── nnUNet_results/
     └── Dataset100_SpineL1L5/
         └── nnUNetTrainer__nnUNetResEncUNetLPlans__3d_fullres/
@@ -181,7 +181,7 @@ voxel→world coordinates round-trip through the affine. No GPU required.
 ## Project structure
 
 ```
-spine-seg-app/
+spine-segmenter/
 ├── README.md                      ← you are here
 ├── requirements.txt
 ├── .gitignore
